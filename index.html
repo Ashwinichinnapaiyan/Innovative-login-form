@@ -3,31 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
 </head>
 <body>
-    <div class="login-box">
-        <h2>CUSTOMER LOGIN</h2>
-        <div class="input-group">
-            <label for="text"><i class="fa fa-user"></i> USERNAME</label>
-            <input type="text" id="username" placeholder="Enter Username" required>
+<div class="maindiv">
+    <div class="left-portion">
+        <div class="h2">
+            <img src="dashboard.png" alt="">
+            <h2>DASHBOARD</h2>       
         </div>
-        <div class="input-group">
-            <label for="password"><i class="fa fa-lock"></i> Password</label>
-            <input type="password" id="password" placeholder="Enter your password" required>
-        </div><br>
-        <div class="options">
-            <label><input type="checkbox"> Remember me</label>
-            <a href="#" onclick="forgotPassword()">Forgot Password?</a>
-        </div><br><br>
-            <button type="submit" onclick="login()" class="login-btn">LOGIN</button>
-            
+         <br> <br>
+        <div class="list">
+            <li><i class="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</li><br>
+            <li><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile</li><br>
+            <li><i class="fa-solid fa-wallet"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wallet</li><br>
+            <li><i class="fa-solid fa-chart-bar"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytics</li><br>
+            <li><i class="fa-solid fa-tasks"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tasks</li><br>
+            <li><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setting</li><br>
+            <li><i class="fa-solid fa-circle-question"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help</li> <br>
+
         </div>
-            <script src="script.js"></script>
+        <div class="logout">
+            <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;&nbsp;&nbsp;logout</li>
         </div>
     </div>
+    <div class="right-portion">
+        <div class="h1">
+            <h1 style="padding-left: 10px; padding-top: 20px;">Skills</h1>
+            <i class="fa-solid fa-user-gear" style="padding-right: 5%;  padding-top: 20px;"></i>
+        </div> <br><br>
+        <div class="skills">
+            <div class="fsd">
+                <i class="fa-sharp fa-solid fa-laptop-code"></i> <br> <br>
+                <h3>FSD course</h3><br>
+                <p>Join Over 1 million Students</p><br>
+                <button>Get Started</button><br>
+            </div>
+            <div class="wordpress">
+                <i class="fa-brands fa-wordpress"></i><br><br>
+                <h3>Word press</h3><br>
+                <p>Join Over 3 million Students</p><br>
+                <button>Get Started</button><br>
+            </div>
+            <div class="paint">
+                <i class="fa-solid fa-palette"></i><br><br>
+                <h3>Graphics</h3><br>
+                <p>Join Over 2 million Students</p><br>
+                <button>Get Started</button><br>
+            </div>
+            <div class="js">
+                <i class="fa-brands fa-js"></i><br><br>
+                <h3>React JS</h3><br>
+                <p>Join Over 1 million Students</p><br>
+                <button>Get Started</button><br>
+
+            </div> 
+        </div> <br><br> <br>
+         <h3>My Courses</h3> <br>
+            <div class="courses">  <br>
+                <a href="">In progress</a><a href="">Explore</a>
+                <a href="">Incoming</a><a href="">Finished</a>
+                <div class="html">
+                    <h2>HTML</h2><br>
+                    <p>80% progress</p>
+                    <button>Get Started</button><i class="fa-brands fa-html5"></i>
+
+                </div>
+                <div class="css">
+                    <h2>CSS</h2><br>
+                    <p>60% progress</p>
+                    <button>Get Started</button>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    
+                </div>
+                <div class="javascript">
+                    <h2>Javascript</h2><br>
+                    <p>40% progress</p>
+                    <button>Get Started</button>
+                    <i class="fa-brands fa-js"></i>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
 </body>
 </html>
-
